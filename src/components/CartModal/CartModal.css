@@ -309,3 +309,9 @@
   text-align: center;
   color: #003a5d;
 }
+
+@media (max-width: 600px) {
+  .cart-modal-content {
+    width: 80%;
+  }
+}

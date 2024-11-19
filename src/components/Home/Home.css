@@ -96,3 +96,13 @@ body {
   width: 200px;
   height: 200px;
 }
+
+@media (max-width: 600px) {
+  .category-grid {
+    grid-template-columns: 1fr; /* 1 column on extra small screens (mobile) */
+  }
+
+  .categories h2 {
+    font-size: 1.8rem;
+  }
+}
