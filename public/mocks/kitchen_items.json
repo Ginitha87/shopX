@@ -1,0 +1,107 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Stainless Steel Cookware Set",
+      "description": "A premium stainless steel cookware set with multiple pots and pans for versatile cooking.",
+      "price": 4999,
+      "discountPercentage": 15,
+      "rating": 4.7,
+      "stock": 35,
+      "brand": "T-fal",
+      "category": "kitchen",
+      "thumbnail": "",
+      "images": [
+        "https://media.istockphoto.com/id/612630426/photo/cooking-and-frying-pans-set-isolated-on-white.jpg?b=1&s=612x612&w=0&k=20&c=_RNGkNoxsS31__A51pyl5SUS7hObhN-saZ1Dp0FjYs4="
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Chef's Knife",
+      "description": "A professional-grade chef's knife with a sharp stainless steel blade.",
+      "price": 1999,
+      "discountPercentage": 10,
+      "rating": 4.8,
+      "stock": 50,
+      "brand": "Wüsthof",
+      "category": "kitchen",
+      "thumbnail": "",
+      "images": [
+        "https://media.istockphoto.com/id/1463522608/photo/variety-of-butcher-knives-on-colorful-background.jpg?b=1&s=612x612&w=0&k=20&c=X0FvUtuSQdQ7gIFFF6ZmzNYRB3QB8GLUHMCQ66U7DO4="
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Electric Blender",
+      "description": "A high-speed electric blender perfect for smoothies and soups.",
+      "price": 2999,
+      "discountPercentage": 20,
+      "rating": 4.6,
+      "stock": 40,
+      "brand": "Ninja",
+      "category": "kitchen",
+      "thumbnail": "",
+      "images": [
+        "https://images.pexels.com/photos/1797103/pexels-photo-1797103.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Non-Stick Frying Pan",
+      "description": "A durable non-stick frying pan for effortless cooking and easy cleanup.",
+      "price": 1299,
+      "discountPercentage": 8,
+      "rating": 4.5,
+      "stock": 75,
+      "brand": "Calphalon",
+      "category": "kitchen",
+      "thumbnail": "",
+      "images": [
+        "https://images.pexels.com/photos/10794160/pexels-photo-10794160.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Glass Mixing Bowl Set",
+      "description": "A set of durable glass mixing bowls for all your baking and cooking needs.",
+      "price": 899,
+      "discountPercentage": 12,
+      "rating": 4.4,
+      "stock": 100,
+      "brand": "Pyrex",
+      "category": "kitchen",
+      "thumbnail": "",
+      "images": [
+        "https://images.pexels.com/photos/6621449/pexels-photo-6621449.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Electric Kettle",
+      "description": "A quick-boiling electric kettle with an automatic shut-off feature.",
+      "price": 1599,
+      "discountPercentage": 10,
+      "rating": 4.5,
+      "stock": 60,
+      "brand": "Cuisinart",
+      "category": "kitchen",
+      "images": [
+        "https://images.pexels.com/photos/1271940/pexels-photo-1271940.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Coffee Maker",
+      "description": "A drip coffee maker with programmable settings and a reusable filter.",
+      "price": 3499,
+      "discountPercentage": 15,
+      "rating": 4.6,
+      "stock": 30,
+      "brand": "Breville",
+      "category": "kitchen",
+      "images": [
+        "https://images.pexels.com/photos/20768096/pexels-photo-20768096/free-photo-of-espresso.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      ]
+    }
+  ]
+}

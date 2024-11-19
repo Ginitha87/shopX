@@ -1,0 +1,311 @@
+/* Overall modal backdrop */
+.cart-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Show modal when open */
+.cart-modal-backdrop.open {
+  display: flex;
+}
+
+/* Modal content */
+.cart-modal-content {
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 700px;
+  width: 36%;
+  height: 100%;
+  overflow-y: auto;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Close button inside modal header */
+.cart-header {
+  display: flex;
+  justify-content: space-between; /* Space between the close icon and heading */
+  align-items: center;
+  margin-bottom: 20px;
+  color: #003a5d;
+  margin: 0;
+}
+
+.cart-header svg {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.cart-header h2 {
+  font-size: 1.75rem;
+  margin: 0;
+  font-weight: 600;
+  flex: 1;
+}
+
+/* Cart item list */
+.cart-item-list {
+  list-style-type: none;
+  padding: 0 20px;
+  margin: 24px 0;
+  flex-grow: 1;
+}
+
+/* Individual cart item */
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Cart item image */
+.cart-item-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+/* Cart item details container */
+.cart-item-details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Cart item title and price */
+.cart-item-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.cart-item-price {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #003a5d;
+}
+
+/* Quantity selector styling */
+.cart-item-quantity {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  outline: none;
+  width: 60px;
+  text-align: center;
+}
+
+.cart-item-quantity:focus {
+  border-color: #007bff;
+}
+
+/* Cart modal header styles */
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  padding: 10px 20px;
+  z-index: 100;
+}
+
+/* Modal backdrop to cover whole screen */
+.cart-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.cart-modal-backdrop.open {
+  display: flex;
+}
+
+/* Header area for cart modal with close button */
+.cart-header svg {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+/* Cart close button */
+.close-button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/* Cart item list style */
+.cart-item-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 24px 0;
+}
+
+/* Individual cart item style */
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Cart item image */
+.cart-item-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+/* Cart item details section */
+.cart-item-details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Item title and price styles */
+.cart-item-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.cart-item-price {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #003a5d;
+}
+
+/* Quantity dropdown */
+
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+  width: 50px; /* Ensures full width */
+}
+
+.cart-item-quantity {
+  appearance: none; /* Remove default browser styling */
+  -webkit-appearance: none; /* Remove webkit-specific styling */
+  background-color: #f0f8ff; /* Light blue background */
+  border: 1px solid #007acc; /* Blue border */
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 14px;
+  width: 50px; /* Full width */
+  color: #333; /* Text color */
+  cursor: pointer;
+  outline: none; /* Remove focus outline */
+  transition: all 0.2s ease-in-out;
+}
+
+.cart-item-quantity:hover {
+  border-color: #005f99; /* Darker blue on hover */
+}
+
+.dropdown-container::after {
+  content: "▼"; /* Arrow character */
+  position: absolute;
+  right: 3px;
+  top: 61%;
+  transform: translateY(-50%); /* Center the arrow vertically */
+  pointer-events: none; /* Prevent clicking on the arrow */
+  font-size: 12px;
+  color: #007acc;
+}
+
+.cart-item-quantity option {
+  padding: 5px; /* Padding for options */
+  background-color: #ffffff; /* White background for options */
+  color: #333; /* Text color for options */
+}
+
+/* Add a custom arrow to the dropdown */
+.cart-item-quantity::after {
+  content: "▼"; /* Custom arrow */
+  position: absolute;
+  right: 10px;
+  pointer-events: none;
+  font-size: 12px;
+  color: #007acc;
+}
+
+/* Delete button styling */
+.cart-item-delete-button {
+  background-color: #003a5d; /* Red background */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+}
+
+.cart-item-delete-button:hover {
+  background-color: #e0a700; /* Darker red on hover */
+}
+
+.cart-total {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+  color: #003a5d;
+}

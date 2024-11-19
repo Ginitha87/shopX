@@ -1,0 +1,107 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Electric Kettle",
+      "description": "A fast boiling electric kettle with a stainless steel body.",
+      "price": 2999,
+      "discountPercentage": 10,
+      "rating": 4.5,
+      "stock": 50,
+      "brand": "Philips",
+      "category": "electronics",
+      "thumbnail": "",
+      "images": [
+        "https://as1.ftcdn.net/jpg/03/00/19/80/220_F_300198051_yKssY7MNPhFJDJ5kaf9qpjda1R75blxP.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Smart LED TV",
+      "description": "A 55-inch smart LED TV with stunning picture quality.",
+      "price": 2999,
+      "discountPercentage": 15,
+      "rating": 4.7,
+      "stock": 20,
+      "brand": "Samsung",
+      "category": "electronics",
+      "thumbnail": "",
+      "images": [
+        "https://as2.ftcdn.net/jpg/04/32/88/03/220_F_432880347_TbjV84Q15xjfgJLjm7jlS4JBBNQ1dMSw.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Wireless Headphones",
+      "description": "Noise-cancelling wireless headphones with deep bass.",
+      "price": 7999,
+      "discountPercentage": 20,
+      "rating": 4.3,
+      "stock": 100,
+      "brand": "Sony",
+      "category": "electronics",
+      "thumbnail": "",
+      "images": [
+        "https://as2.ftcdn.net/jpg/05/24/48/71/220_F_524487156_zlY3rVr6PaU7GRLtvjGd0jDk31u4zrC5.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Electric Toothbrush",
+      "description": "An electric toothbrush for effective cleaning.",
+      "price": 100,
+      "discountPercentage": 5,
+      "rating": 4.6,
+      "stock": 75,
+      "brand": "",
+      "category": "",
+      "thumbnail": "",
+      "images": [
+        "https://as2.ftcdn.net/jpg/02/20/50/01/220_F_220500192_BrF9BRBqLZ5vnitPD5zruXJDsSdB0KV2.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Portable Power Bank",
+      "description": "A high-capacity portable power bank for charging devices on the go.",
+      "price": 1499,
+      "discountPercentage": 12,
+      "rating": 4.4,
+      "stock": 60,
+      "brand": "Anker",
+      "category": "electronics",
+      "thumbnail": "",
+      "images": [
+        "https://as2.ftcdn.net/jpg/02/63/65/65/220_F_263656507_44N8Ake55HabfblNMW1f6JqdEbsQrX9l.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Electric Iron",
+      "description": "A lightweight electric iron for efficient ironing.",
+      "price": 299,
+      "discountPercentage": 10,
+      "rating": 4.5,
+      "stock": 40,
+      "brand": "Philips",
+      "category": "electronics",
+      "images": [
+        "https://as1.ftcdn.net/jpg/03/23/95/76/220_F_323957658_mmZpy8zTV8C59sKIBFyBQ8vtLOhjSsq4.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Leather Boots",
+      "description": "Durable and stylish leather boots perfect for any season.",
+      "price": 6500,
+      "discountPercentage": 10,
+      "rating": 4.5,
+      "stock": 25,
+      "brand": "Dr. Martens",
+      "category": "fashion",
+      "images": [
+        "https://images.pexels.com/photos/7866269/pexels-photo-7866269.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      ]
+    }
+  ]
+}

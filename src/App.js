@@ -1,31 +1,37 @@
-import 'index.css'
-import ScrollToTop from "./scrollToTop";
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { Provider } from 'react-redux'
-import store from './store'
-import Home from 'components/Home/Home'
-import Cart from 'components/Cart/Cart'
-import About from 'components/About/About'
-import Shop from 'components/Shop/Shop'
-import Collections from 'components/Shop/Collections'
-import ItemDetail from 'components/Shop/ItemDetail';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import "./App.css";
+import store from "./store/store";
+import { Provider } from "react-redux";
+import Layout from "./Layout/Layout";
+import ElectronicItems from "./components/Items/ElectronicItems/ElectronicItems";
 
-const App = () => {
-    return (
+function App() {
+  return (
+    <div className="App">
+      <Router>
         <Provider store={store}>
-                <Router>
-                    <ScrollToTop />
-                    <Cart />
-                    <Switch>
-                        <Route exact path='/' component={Home}/>
-                        <Route exact path='/about' component={About} />
-                        <Route exact path='/shop' component={Shop} />
-                        <Route exact path='/shop/:collection' component={Collections} />
-                        <Route exact path='/shop/collection/:name' component={ItemDetail} />
-                    </Switch>
-                </Router>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/items/:name" element={<ElectronicItems />} />
+            </Route>
+            {/* <Route path="/" element={<Home />}>
+            <Route index element={<Dashboard />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="*" element={<Dashboard />} />
+            <Route exact path="shop/:collection" component={Items}>
+              <Route exact path="collection/:name" component={ItemDetail} />
+            </Route>
+          </Route> */}
+          </Routes>
         </Provider>
-    )
+      </Router>
+    </div>
+  );
 }
 
 export default App;

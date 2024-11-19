@@ -1,0 +1,107 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Casual Denim Jacket",
+      "description": "A stylish and versatile denim jacket perfect for any casual outfit.",
+      "price": 3999,
+      "discountPercentage": 10,
+      "rating": 4.5,
+      "stock": 30,
+      "brand": "Levi's",
+      "category": "fashion",
+      "thumbnail": "",
+      "images": [
+        "https://media.istockphoto.com/id/1331945089/photo/blue-jeans-jacket-isolated-on-white-background-denim-jacket-close-up.jpg?s=612x612&w=0&k=20&c=yc_1fE8E6Xh_EvvfG8VYPOobjnD0rbQHEyzFPzEs-PA="
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Summer Maxi Dress",
+      "description": "A flowy and comfortable maxi dress ideal for summer days.",
+      "price": 2999,
+      "discountPercentage": 15,
+      "rating": 4.7,
+      "stock": 15,
+      "brand": "Zara",
+      "category": "fashion",
+      "thumbnail": "",
+      "images": [
+        "https://media.istockphoto.com/id/1268132702/photo/cute-baby-girl-with-barefoot-jumping-on-pink-background.jpg?b=1&s=612x612&w=0&k=20&c=jIbAmdnRzkjT2bfrWIXdUWXSnLinTemgJnYgzo5dutg="
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Running Sneakers",
+      "description": "Lightweight running sneakers with excellent cushioning and support.",
+      "price": 4999,
+      "discountPercentage": 20,
+      "rating": 4.3,
+      "stock": 80,
+      "brand": "Nike",
+      "category": "fashion",
+      "thumbnail": "",
+      "images": [
+        "https://media.istockphoto.com/id/1337191336/photo/black-fashion-sport-shoe-on-white-background.jpg?b=1&s=612x612&w=0&k=20&c=XoDOiSP0-CUGJYVihWg5iDu-MlyNeHK6IUYxFQc6_zw="
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Leather Handbag",
+      "description": "A chic leather handbag that complements both casual and formal attire.",
+      "price": 5500,
+      "discountPercentage": 5,
+      "rating": 4.6,
+      "stock": 20,
+      "brand": "Michael Kors",
+      "category": "fashion",
+      "thumbnail": "",
+      "images": [
+        "https://images.pexels.com/photos/3661622/pexels-photo-3661622.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Classic White T-Shirt",
+      "description": "A high-quality, soft cotton white T-shirt for everyday wear.",
+      "price": 999,
+      "discountPercentage": 12,
+      "rating": 4.4,
+      "stock": 100,
+      "brand": "H&M",
+      "category": "fashion",
+      "thumbnail": "",
+      "images": [
+        "https://media.istockphoto.com/id/1873110327/photo/studio-portrait-of-a-cheerful-5-year-old-boy-on-an-beige-background.jpg?s=1024x1024&w=is&k=20&c=6FRyMrB5EKjDus2Yq5rXGbINojCXlqsa5O1N7sTOLKs="
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Wool Scarf",
+      "description": "A cozy wool scarf to keep you warm during colder months.",
+      "price": 1299,
+      "discountPercentage": 10,
+      "rating": 4.5,
+      "stock": 60,
+      "brand": "Uniqlo",
+      "category": "fashion",
+      "images": [
+        "https://media.istockphoto.com/id/1132517888/photo/plaid-textured-scarf.jpg?b=1&s=612x612&w=0&k=20&c=ws8866O-uQSK-Q5BCQ1fVz02kn40Sg4yvQ_mQww9uh0="
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Leather Boots",
+      "description": "Durable and stylish leather boots perfect for any season.",
+      "price": 6500,
+      "discountPercentage": 10,
+      "rating": 4.5,
+      "stock": 25,
+      "brand": "Dr. Martens",
+      "category": "fashion",
+      "images": [
+        "https://media.istockphoto.com/id/154918134/photo/old-brown-boots-isolated-on-white-background.jpg?b=1&s=612x612&w=0&k=20&c=twkX633oODNf7zwp-Sny2cBLXAkqKLLfO4YVSQK9NDo="
+      ]
+    }
+  ]
+}

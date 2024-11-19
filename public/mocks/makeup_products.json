@@ -1,0 +1,107 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Moisturizing Face Cream",
+      "description": "A hydrating face cream enriched with natural ingredients for soft and glowing skin.",
+      "price": 1999,
+      "discountPercentage": 15,
+      "rating": 4.7,
+      "stock": 50,
+      "brand": "GlowSkin",
+      "category": "beauty",
+      "thumbnail": "",
+      "images": [
+        "https://images.pexels.com/photos/16071961/pexels-photo-16071961/free-photo-of-tube-of-lotion.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Matte Lipstick Set",
+      "description": "A set of long-lasting matte lipsticks in various shades for any occasion.",
+      "price": 1499,
+      "discountPercentage": 10,
+      "rating": 4.8,
+      "stock": 60,
+      "brand": "BeautyBliss",
+      "category": "beauty",
+      "thumbnail": "",
+      "images": [
+        "https://media.istockphoto.com/id/1458639401/photo/red-lipstick-close-up-on-pink-background.jpg?b=1&s=612x612&w=0&k=20&c=Vj7k6byC7_HDzxYD8Cy_qGBgCV3ckZEs0pdv6xatbP4="
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Anti-Aging Serum",
+      "description": "A lightweight serum that helps reduce wrinkles and improve skin elasticity.",
+      "price": 2999,
+      "discountPercentage": 20,
+      "rating": 4.6,
+      "stock": 40,
+      "brand": "YouthfulGlow",
+      "category": "beauty",
+      "thumbnail": "",
+      "images": [
+        "https://media.istockphoto.com/id/1187560644/photo/beautiful-girl-getting-skin-anti-aging-treatment.jpg?b=1&s=612x612&w=0&k=20&c=QKHETxynuTfWVFCWYYdndgGSBhqE0oVBx16jmeGdKuk="
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Volumizing Mascara",
+      "description": "A waterproof mascara that adds volume and length to your lashes.",
+      "price": 899,
+      "discountPercentage": 8,
+      "rating": 4.5,
+      "stock": 75,
+      "brand": "LashUp",
+      "category": "beauty",
+      "thumbnail": "",
+      "images": [
+        "https://images.pexels.com/photos/3373745/pexels-photo-3373745.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Scented Body Lotion",
+      "description": "A nourishing body lotion with a refreshing floral scent.",
+      "price": 799,
+      "discountPercentage": 12,
+      "rating": 4.4,
+      "stock": 100,
+      "brand": "SootheSkin",
+      "category": "beauty",
+      "thumbnail": "",
+      "images": [
+        "https://images.pexels.com/photos/4202325/pexels-photo-4202325.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Facial Cleanser",
+      "description": "A gentle facial cleanser suitable for all skin types.",
+      "price": 999,
+      "discountPercentage": 10,
+      "rating": 4.5,
+      "stock": 60,
+      "brand": "PureGlow",
+      "category": "beauty",
+      "images": [
+        "https://media.istockphoto.com/id/883019546/photo/she-enjoys-looking-after-her-skin.jpg?b=1&s=612x612&w=0&k=20&c=3aTlU7oadrPetQ9qRxgXCkbwdcInAbm5PYr31f6cby0="
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Hydrating Sheet Mask",
+      "description": "A set of sheet masks infused with aloe vera and hyaluronic acid for instant hydration.",
+      "price": 499,
+      "discountPercentage": 15,
+      "rating": 4.6,
+      "stock": 80,
+      "brand": "AquaCare",
+      "category": "beauty",
+      "images": [
+        "https://media.istockphoto.com/id/1743208640/photo/hand-holding-moisturising-face-mask-isolated-on-gray-background.jpg?b=1&s=612x612&w=0&k=20&c=M8fzgX_v-ekDNSu13releS1EJ6LIQd3AZQ4BYz9XjGc="
+      ]
+    }
+  ]
+}
